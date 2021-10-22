@@ -7,4 +7,36 @@
     padding: 0;
 }
 
+#bgvid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+nav {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position : -webkit-sticky;
+    color: white;
+}
+
+li {
+    display: flex;
+    padding: 20px;
+    font-size: 25px;
+    float: left;
+}
+.greeting{
+    color: white;
+    position: fixed;
+    top: 45%;
+    right : 50%;
+    font-size: 40px;
+    
+}
 
