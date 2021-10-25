@@ -13,30 +13,51 @@
     bottom: 0;
     min-width: 100%;
     max-width: 100%;
+    display: flex;
+    flex: wrap;
 }
-
+/* snippet start */
 nav {
-    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    position : -webkit-sticky;
+    position: relative;
     color: white;
+    top:0;
+
 }
 
 li {
     display: flex;
+    position: relative;
+    left: 80%;
     padding: 20px;
     font-size: 25px;
-    float: left;
+    float: left;    
 }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 18px;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(96, 114, 221);
+}
+
+
+/* snippet end */
 .greeting{
     color: white;
-    position: fixed;
     top: 45%;
     right : 50%;
+    height: 50px;
     font-size: 40px;
+    display: flex;
+    flex: wrap;
+    position: fixed;
     
 }
+
 
