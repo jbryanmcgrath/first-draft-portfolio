@@ -1,55 +1,51 @@
-<!-- snippet -->
-
-redoing code so as to learn a different way
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-    color: white;
-    top:0;
-
-}
-
-li {
-    display: flex;
-    position: relative;
-    left: 80%;
-    padding: 20px;
-    font-size: 25px;
-    float: left;    
-}
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    position: relative;
-    top: -15px;
-}
-nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(96, 114, 221);
-}
+<header>
+        <nav class="navbar-expand-lg navbar-light w-50 p-3 ml-auto">
+            <ul class="navbar-nav nav-fill w-100 font-weight-bold" id="navul">
+                <li class="inline w-50">
+                    Projects & Applications
+                </li>
+                <li class="inline w-25">
+                    About Me
+                </li>
+                <li class="inline w-25">
+                    Reach Out
+                </li>
+            </ul>
+        </nav>
+    </header>
 
 
+<section class="continer">
+            <article class="row">
+                <div class="col">
+                    <div>
+                        <h3>RunBuddy</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/orignal-background.jpg">
+                    </div>
+                </div>
+            </article>
+            <article class="row">
+                <div class="col">
+                    <div>
+                        <h3>RunBuddy</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/orignal-background.jpg">
+                    </div>
+                </div>
+            </article>
+            <article class="row">
+                <div class="col">
+                    <div>
+                        <h3>RunBuddy</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/orignal-background.jpg">
+                    </div>
+                </div>
+            </article>
 
-<nav>
-                <ul>
-                    <li class="projects">
-                        <a href="#projects-&-applications">PROJECTS & APPLICATIONS</a>
-                    </li>
-                    <li class="about">
-                        <a href="#about-me">ABOUT ME</a>
-                    </li>
-                    <li class="reach">
-                        <a href="#reach-out">REACH OUT</a>
-                    </li>
-                </ul>
-            </nav>
-            <section>
-                <p class="greeting">Hi. My name is Bryan McGrath. <br>I'm a Full Stack Web Developer.
-                <p>
-            </section>
-            <article class="second-page">
             </article>
         </section>
