@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
 
 <head>
@@ -14,27 +14,35 @@
 </head>
 
 <body>
-    <section id="bgvid">
-        <header class="container">
-            <nav class="navbar-expand-lg navbar-light w-50 p-3 ml-auto">
-                <ul class="navbar-nav nav-fill w-100 font-weight-bold" id="navul">
-                    <li class="inline w-50">
-                        Projects & Applications
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light" style="float:right;">
+            <a id="logo" href="./index.html" class="navbar-brand"><img src="./assets/images/logo.png"
+                    style="max-width: 100px; max-height: 100px; min-width: 75px; min-height: 75px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center" id="navbarStyle">
+                    <li>
+                        <a class="nav-link" href="projects.html">Projects & Applications</a>
                     </li>
-                    <li class="inline w-25">
-                        About Me
+                    <li>
+                        <a class="nav-link" href="projects.html">About Me</a>
                     </li>
-                    <li class="inline w-25">
-                        Reach Out
+                    <li>
+                        <a class="nav-link" href="projects.html">Reach Me</a>
                     </li>
                 </ul>
-            </nav>
-        </header>
-        <article id="greeting" class="w-50 mx-auto">
-            <p>
-                Hi. My name is Bryan McGrath. <br>I'm a Full Stack Web Developer.
-            <p>
-        </article>
+
+            </div>
+        </nav>
+    </div>
+    <article id="greeting" class="w-50 mx-auto">
+        <p>
+            Hi. My name is Bryan McGrath. <br>I'm a Full Stack Web Developer.
+        <p>
+    </article>
     </section>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

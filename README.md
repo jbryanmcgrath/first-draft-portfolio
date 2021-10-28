@@ -49,3 +49,18 @@
 
             </article>
         </section>
+
+        <header class="container">
+            <nav class="navbar-expand-lg navbar-light w-50 p-3 ml-auto">
+                <ul class="navbar-nav nav-fill w-100 font-weight-bold" id="navul">
+                    <li class="inline w-50">
+                        <a class="nav-item" href="./projects.html">Projects & Applications</a>
+                    </li>
+                    <li class="inline w-25">
+                        <a class="nav-item" href="./aboutme.html">About Me</a>
+                    </li>
+                    <li class="inline w-25">
+                        <a class="nav-item" href="./reachout.html">Reach out</a>
+                </ul>
+            </nav>
+        </header>
