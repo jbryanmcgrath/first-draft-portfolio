@@ -15,7 +15,7 @@
     </header>
 
 
-<section class="continer">
+<section class="container">
             <article class="row">
                 <div class="col">
                     <div>
