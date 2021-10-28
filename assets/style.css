@@ -34,6 +34,18 @@
         
 }
 
-#projects{
-    text-align: center;
+#bigBoxProject{
+    position: absolute;
+    top: 50%;
+    margin-top: -65px;
+    color: black;
+    
+}
+
+#projectimg {
+position: relative;
+    max-width: 250px;
+    max-height: 250px;
+
+    
 }
