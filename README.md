@@ -1,82 +1,22 @@
 
 
+Initial portfolio to meet Min requirements for submission. 
+Hopefully will iron out design issues to make page more visually pleasing. 
 
 
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
 
 
-
-
-
-
-
-
-<header>
-        <nav class="navbar-expand-lg navbar-light w-50 p-3 ml-auto">
-            <ul class="navbar-nav nav-fill w-100 font-weight-bold" id="navul">
-                <li class="inline w-50">
-                    Projects & Applications
-                </li>
-                <li class="inline w-25">
-                    About Me
-                </li>
-                <li class="inline w-25">
-                    Reach Out
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-
-<section class="container">
-            <article class="row">
-                <div class="col">
-                    <div>
-                        <h3>RunBuddy</h3>
-                    </div>
-                    <div>
-                        <img src="assets/images/orignal-background.jpg">
-                    </div>
-                </div>
-            </article>
-            <article class="row">
-                <div class="col">
-                    <div>
-                        <h3>RunBuddy</h3>
-                    </div>
-                    <div>
-                        <img src="assets/images/orignal-background.jpg">
-                    </div>
-                </div>
-            </article>
-            <article class="row">
-                <div class="col">
-                    <div>
-                        <h3>RunBuddy</h3>
-                    </div>
-                    <div>
-                        <img src="assets/images/orignal-background.jpg">
-                    </div>
-                </div>
-            </article>
-
-            </article>
-        </section>
-
-        <header class="container">
-            <nav class="navbar-expand-lg navbar-light w-50 p-3 ml-auto">
-                <ul class="navbar-nav nav-fill w-100 font-weight-bold" id="navul">
-                    <li class="inline w-50">
-                        <a class="nav-item" href="./projects.html">Projects & Applications</a>
-                    </li>
-                    <li class="inline w-25">
-                        <a class="nav-item" href="./aboutme.html">About Me</a>
-                    </li>
-                    <li class="inline w-25">
-                        <a class="nav-item" href="./reachout.html">Reach out</a>
-                </ul>
-            </nav>
-        </header>
-
-
-        style="max-width: 100px; max-height: 100px; min-width: 75px; min-height: 75px"
-
+![Screenshot of screenshot.](../assets/images/rmss.png)
