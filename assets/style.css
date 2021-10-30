@@ -1,51 +1,51 @@
-*{
-    background-color: brown;
+
+/* Home Page */
+/* NavBar */
+
+.hidden{
+    display: none;
 }
 
-#logo:hover{
-    opacity: 75%;
+/* Home Page Message */
 
-}
-#navbarStyle{
-    font-size:20px;
-}
-#navul {
-   text-align: center;
-   font-size: 21px;
-   color: black;
-   text-decoration: none;
-   list-style: none;
+#greeting{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 120px;
 }
 
-#greeting {
-    text-align: right;
-    font-size: 45px;
-    width: 50px;
-  height: 50px;
-  /* Center vertically */
-  position: absolute;
-  top: 50%;
-  margin-top: -65px;
-  color: black;
+#projectText {
+    display: flex;
+    flex:wrap;
+    align-items: flex-end;
 }
 
-#bgvid {
-        position:absolute;
-        
+#projectTitle {
+    text-align: center;
+    text-decoration: underline;
 }
 
-#bigBoxProject{
-    position: absolute;
-    top: 50%;
-    margin-top: -65px;
-    color: black;
-    
-}
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+  }
+  
+  footer h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: left;
+  }
+  
 
-#projectimg {
-position: relative;
-    max-width: 250px;
-    max-height: 250px;
 
-    
-}

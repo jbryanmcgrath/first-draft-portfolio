@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 <header>
         <nav class="navbar-expand-lg navbar-light w-50 p-3 ml-auto">
             <ul class="navbar-nav nav-fill w-100 font-weight-bold" id="navul">
@@ -64,3 +76,7 @@
                 </ul>
             </nav>
         </header>
+
+
+        style="max-width: 100px; max-height: 100px; min-width: 75px; min-height: 75px"
+
